@@ -1,0 +1,29 @@
+<html>
+    <title>Customer Management system</title>
+    <head>
+            <link rel="stylesheet" href="css/navstyle.css">
+            <script src="javascript/script.js"></script>
+    </head>
+    <body> <img src="images\cms.png" width="80px" height="40px" >
+        <div class ="login" style="width: 800px; height: 500px; position: fixed; margin-left: 300px;margin-top: 50px; border: 2px solid black; border-radius: 15px;">
+       
+        
+            <div class="topnav" style="position: fixed;">
+                    <a class="nohover">Customer Management System</a>
+                    <a href="customer.html">Customers</a>
+                    <a href="#orders">Orders</a>
+                    <a href="#about">about</a>
+                    <a class="active" href="login.html">Login</a>
+                  </div>
+            <h1 style="padding:40px; color: rgb(9, 68, 107);">LOGIN</h1>
+            <h4 style="padding-left: 20px">Login ID</h4>
+            <input type="text" name="login" id="login" placeholder="Enter your Login id" width="100%" >
+            <h4 style="padding-left: 20px">PASSWORD</h4>
+            <input type="password" id="pwd" name="pwd" placeholder="Enter your password" onkeydown="changecolor()" ><br>
+            <h4>
+                    <input type="checkbox" checked="checked" name="remember" style="padding: 20px;margin-left: 20px"> Remember me
+            </h4>
+            <button type="submit" style="padding: 2px;margin-left: 80px;background-color: rgb(9, 68, 107);color:white;width: 100px;border-radius: 15px">LOGIN</button>
+        </div>
+    </body>
+</html>
